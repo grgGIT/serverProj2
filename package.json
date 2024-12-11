@@ -1,7 +1,7 @@
 {
-  "name": "domomaker",
+  "name": "geoff library app",
   "version": "1.0.0",
-  "description": "A Simple Login Example using Node.js, Mongo and Redis",
+  "description": "A Simple Login Example using Node.js, Mongo and Redis, that is able to create, read, update, and delete (CRUD) books in admin pages and then have a user interface that is good.",
   "main": "./server/app.js",
   "scripts": {
     "webpack": "webpack",
@@ -18,34 +18,34 @@
     "Redis",
     "Login"
   ],
-  "author": "Cody Van De Mark / Austin Willoughby",
+  "author": "Cody Van De Mark / Austin Willoughby and expanded by Geoff Gracia",
   "license": "Apache 2.0",
   "devDependencies": {
     "@babel/core": "^7.26.0",
-    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-react": "^7.26.3",
     "babel-loader": "^9.2.1",
-    "eslint": "^8.57.1",
+    "eslint": "^9.16.0",
     "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.29.1",
-    "nodemon": "^3.1.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "webpack": "^5.91.0",
+    "eslint-plugin-import": "^2.31.0",
+    "nodemon": "^3.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
-    "compression": "^1.7.4",
-    "connect-redis": "^7.1.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "express-handlebars": "^7.1.2",
-    "express-session": "^1.18.0",
-    "helmet": "^7.1.0",
-    "mongoose": "^8.2.3",
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.5",
+    "connect-redis": "^8.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-handlebars": "^8.0.1",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "mongoose": "^8.8.4",
     "redis": "^4.7.0",
     "serve-favicon": "^2.5.0",
-    "underscore": "^1.13.6"
+    "underscore": "^1.13.7"
   }
 }

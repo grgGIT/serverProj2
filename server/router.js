@@ -2,7 +2,9 @@ const controllers = require('./controllers');
 const mid = require('./middleware');
 
 const router = (app) => {
-  app.get('/getDomos', mid.requiresSecure, mid.requiresLogout, controllers.Domo.getDomos);
+  app.get('/books', mid.requiresLogin, controllers.Book.getBooks);
+  app.post('/books', mid.requiresLogin, controllers.Book.addBook);
+// Add routes for updating and deleting books
 
   app.get('/login', mid.requiresSecure, mid.requiresLogout, controllers.Account.loginPage);
   app.post('/login', mid.requiresSecure, mid.requiresLogout, controllers.Account.login);
@@ -11,8 +13,23 @@ const router = (app) => {
 
   app.get('/logout', mid.requiresLogin, controllers.Account.logout);
 
-  app.get('/maker', mid.requiresLogin, controllers.Domo.makerPage);
-  app.post('/maker', mid.requiresLogin, controllers.Domo.makeDomo);
+  app.get('/admin-login', mid.requiresSecure, mid.requiresLogout, (req, res) => {
+    res.render('admin-login');
+  });
+
+  app.post('/admin', (req, res) => {
+    const { adminPass } = req.body;
+    if (adminPass === 'book123!') {
+      res.render('admin-dashboard');
+    } else {
+      res.status(401).send('Unauthorized');
+    }
+  });
+
+  app.post('/admin/add-book', controllers.Book.addBook);
+  app.post('/admin/update-book/:id', controllers.Book.updateById);
+  app.post('/admin/delete-book/:id', controllers.Book.deleteById);
+  
 
   app.get('/', mid.requiresSecure, mid.requiresLogout, controllers.Account.loginPage);
 };

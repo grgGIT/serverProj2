@@ -1,0 +1,228 @@
+[
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publicationDate": 1960,
+      "genre": "Fiction",
+      "description": "A novel about the serious issues of rape and racial inequality told through the eyes of young Scout Finch.",
+      "price": 10.99,
+      "stock": 25
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "publicationDate": 1949,
+      "genre": "Dystopian",
+      "description": "A chilling prophecy about the future and a timeless warning against totalitarianism.",
+      "price": 12.99,
+      "stock": 30
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "publicationDate": 1813,
+      "genre": "Romance",
+      "description": "A romantic comedy about the manners and matrimonial machinations among the British gentry.",
+      "price": 8.99,
+      "stock": 20
+    },
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "publicationDate": 1925,
+      "genre": "Classic",
+      "description": "A story of the young and mysterious millionaire Jay Gatsby and his obsession with Daisy Buchanan.",
+      "price": 9.99,
+      "stock": 15
+    },
+    {
+      "title": "Moby-Dick",
+      "author": "Herman Melville",
+      "publicationDate": 1851,
+      "genre": "Adventure",
+      "description": "A whaling voyage that explores themes of obsession, revenge, and humanity.",
+      "price": 11.50,
+      "stock": 10
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "publicationDate": 1951,
+      "genre": "Fiction",
+      "description": "A coming-of-age novel that delves into teenage rebellion and identity.",
+      "price": 7.99,
+      "stock": 22
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "publicationDate": 1937,
+      "genre": "Fantasy",
+      "description": "A hobbit’s adventure to reclaim treasure guarded by a dragon.",
+      "price": 14.99,
+      "stock": 18
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "publicationDate": 1847,
+      "genre": "Romance",
+      "description": "A tale of love, loss, and redemption following the life of Jane Eyre.",
+      "price": 10.50,
+      "stock": 12
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "publicationDate": 1988,
+      "genre": "Philosophy",
+      "description": "An allegorical novel about a shepherd's journey to find a hidden treasure.",
+      "price": 9.75,
+      "stock": 25
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "publicationDate": 1932,
+      "genre": "Dystopian",
+      "description": "A novel that imagines a future society dominated by technology and conformity.",
+      "price": 13.99,
+      "stock": 17
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "publicationDate": 2006,
+      "genre": "Post-Apocalyptic",
+      "description": "A harrowing tale of a father and son navigating a desolate, dangerous world.",
+      "price": 10.99,
+      "stock": 10
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "publicationDate": 1945,
+      "genre": "Political Satire",
+      "description": "An allegorical novella reflecting the Russian Revolution and the rise of totalitarianism.",
+      "price": 6.99,
+      "stock": 30
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "publicationDate": 1953,
+      "genre": "Dystopian",
+      "description": "A story about a future society where books are outlawed and burned.",
+      "price": 8.50,
+      "stock": 15
+    },
+    {
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "publicationDate": 2003,
+      "genre": "Drama",
+      "description": "A tale of friendship and betrayal set against the backdrop of Afghanistan.",
+      "price": 11.99,
+      "stock": 14
+    },
+    {
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "publicationDate": 1869,
+      "genre": "Historical Fiction",
+      "description": "A sweeping saga of love, war, and family during the Napoleonic era.",
+      "price": 20.00,
+      "stock": 8
+    },
+    {
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "publicationDate": 2005,
+      "genre": "Historical Fiction",
+      "description": "A young girl’s story of love and survival during World War II.",
+      "price": 10.00,
+      "stock": 13
+    },
+    {
+      "title": "The Odyssey",
+      "author": "Homer",
+      "publicationDate": -800,
+      "genre": "Epic",
+      "description": "An epic poem about Odysseus' journey home from the Trojan War.",
+      "price": 12.50,
+      "stock": 19
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "publicationDate": 1890,
+      "genre": "Philosophical Fiction",
+      "description": "A story about vanity and moral corruption.",
+      "price": 9.50,
+      "stock": 10
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "publicationDate": 1866,
+      "genre": "Psychological Fiction",
+      "description": "A psychological exploration of guilt and redemption.",
+      "price": 14.99,
+      "stock": 11
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "publicationDate": 1847,
+      "genre": "Romance",
+      "description": "A story of passion and revenge on the Yorkshire moors.",
+      "price": 9.99,
+      "stock": 15
+    },
+    {
+      "title": "Slaughterhouse-Five",
+      "author": "Kurt Vonnegut",
+      "publicationDate": 1969,
+      "genre": "Science Fiction",
+      "description": "A satirical novel about war and human folly.",
+      "price": 12.00,
+      "stock": 20
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "publicationDate": 1880,
+      "genre": "Philosophical Fiction",
+      "description": "A deep exploration of faith, doubt, and morality.",
+      "price": 18.00,
+      "stock": 7
+    },
+    {
+      "title": "The Shining",
+      "author": "Stephen King",
+      "publicationDate": 1977,
+      "genre": "Horror",
+      "description": "A tale of madness and supernatural horror set in a remote hotel.",
+      "price": 15.99,
+      "stock": 12
+    },
+    {
+      "title": "It",
+      "author": "Stephen King",
+      "publicationDate": 1986,
+      "genre": "Horror",
+      "description": "A group of friends confront a monstrous evil that terrorized them as children.",
+      "price": 16.99,
+      "stock": 9
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "publicationDate": 1897,
+      "genre": "Horror",
+      "description": "The tale of Count Dracula’s attempt to move from Transylvania to England.",
+      "price": 10.00,
+      "stock": 18
+    }
+  ]
+  

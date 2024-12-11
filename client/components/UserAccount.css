@@ -1,0 +1,42 @@
+/* UserAccount.css */
+
+.user-account {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-account h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.user-account ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-account li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-account button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.user-account button:hover {
+  background-color: #e65c54;
+}

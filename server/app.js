@@ -16,7 +16,7 @@ const router = require('./router.js');
 
 const port = process.env.PORT || process.env.PORT || 3000;
 
-const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/Domomaker';
+const dbURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/projthree';
 mongoose.connect(dbURI).catch((err) => {
   if (err) {
     console.log(err, ' - Could not connect to database');
@@ -41,7 +41,7 @@ redisClient.connect().then(() => {
 
   app.use(session({
     key: 'sessionid',
-    secret: 'Domo Arigato',
+    secret: 'Book App',
     store: new RedisStore({ client: redisClient }),
     resave: true,
     saveUninitialized: true,

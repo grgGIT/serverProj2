@@ -1,0 +1,20 @@
+<!-- admin-login.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="/assets/admin.css">
+</head>
+<body>
+    <div class="admin-login-container">
+        <h1>Admin Login</h1>
+        <form id="adminLoginForm" action="/admin" method="POST">
+            <label for="adminPass">Admin Password:</label>
+            <input type="password" name="adminPass" id="adminPass" placeholder="Enter admin password" required>
+            <input class="formSubmit" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>

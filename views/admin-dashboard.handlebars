@@ -1,0 +1,39 @@
+<!-- admin-dashboard.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/styles/admin.css">
+</head>
+<body>
+    <h1>Admin Dashboard</h1>
+    <div class="admin-actions">
+        <form action="/admin/books" method="GET">
+            <button type="submit">View All Books</button>
+        </form>
+        <form action="/admin/add-book" method="POST">
+            <input type="text" name="title" placeholder="Title" required>
+            <input type="text" name="author" placeholder="Author" required>
+            <input type="text" name="genre" placeholder="Genre" required>
+            <input type="number" name="price" placeholder="Price" required>
+            <input type="number" name="quantity" placeholder="Quantity" required>
+            <button type="submit">Add New Book</button>
+        </form>
+        <form action="/admin/update-book" method="POST">
+            <input type="text" name="id" placeholder="Book ID" required>
+            <input type="text" name="title" placeholder="New Title">
+            <input type="text" name="author" placeholder="New Author">
+            <input type="text" name="genre" placeholder="New Genre">
+            <input type="number" name="price" placeholder="New Price">
+            <input type="number" name="quantity" placeholder="New Quantity">
+            <button type="submit">Update Book</button>
+        </form>
+        <form action="/admin/delete-book" method="POST">
+            <input type="text" name="id" placeholder="Book ID" required>
+            <button type="submit">Delete Book</button>
+        </form>
+    </div>
+</body>
+</html>
